@@ -1,6 +1,8 @@
-My personal version of the handy em-n-en by CemraJC. I only changed the inline replace keys to something more intuitive for me.
+# Fork
+My personal version of the handy `em-n-en` by CemraJC. I only changed the inline replace keys to something more intuitive for me.
 - "-=" gives the en dash "–"
 - "--=" gives the em dash "—"
+
 That's it!
 
 The original readme below:
