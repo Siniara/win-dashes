@@ -195,6 +195,7 @@ reset(){
 
 
 ; "En Dash" code point is {U+2013} and "Em Dash" code point is {U+2014}
+; The order of -=, --=, matters!!
 
 #If, settings["mod"][3]
 ^+-::
@@ -208,13 +209,14 @@ return
 
 #If, settings["inl"][3]
 :*?:--=::
-Send {U+2013}
+Send {U+2014}
 return
 
 #If, settings["inl"][3]
-:*?:==-::
-Send {U+2014}
+:*?:-=::
+Send {U+2013}
 return
+
 
 #If, settings["hrd"][3]
 :*:-::
